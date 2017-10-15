@@ -8,6 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
 		<module>demo-eureka-server</module>
+		<module>demo-eureka-client</module>
 	</modules>
 	<packaging>pom</packaging>
 
