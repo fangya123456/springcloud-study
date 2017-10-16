@@ -8,7 +8,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * Created by fangya on 2017/10/15.
  */
-@EnableDiscoveryClient
+//激活注册提供服务的客户端使用注解 @EnableDiscoveryClient 或 @EnableEurekaClient
+@EnableEurekaClient
 @SpringBootApplication
 public class DemoEurekaClientApplication {
     public static void main(String[] args){

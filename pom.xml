@@ -9,7 +9,9 @@
 	<modules>
 		<module>demo-eureka-server</module>
 		<module>demo-eureka-client</module>
-	</modules>
+		<module>demo-service-ribbon</module>
+        <module>demo-service-feign</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>demo</name>
