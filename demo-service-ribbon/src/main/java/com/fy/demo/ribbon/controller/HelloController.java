@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
  * Created by ya.fang on 2017/10/16.
  */
 @Controller
-public class HelloService {
+public class HelloController {
 
     @Autowired
     private TestService testService;
